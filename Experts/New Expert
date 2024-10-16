@@ -1,0 +1,22 @@
+nodes:
+  - id: ZVJtg3j7UVvDILjBqdT0w
+    type: llm
+    position:
+      x: 663
+      'y': 507
+    data:
+      id: ZVJtg3j7UVvDILjBqdT0w
+      title: New Model
+      input: ''
+      slashgptManifest: test.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+    width: 210
+    height: 466
+    selected: true
+    dragging: false
+edges: []
+description: null
