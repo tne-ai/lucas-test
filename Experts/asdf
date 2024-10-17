@@ -1,0 +1,28 @@
+nodes:
+  - id: gKZvT3EBo--jrINoL-yGY
+    type: llm
+    position:
+      x: 451.51673387096776
+      'y': 371.48326612903224
+    data:
+      id: gKZvT3EBo--jrINoL-yGY
+      title: New Model
+      input: ''
+      slashgptManifest: test.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: lucas-test
+    width: 212
+    height: 466
+    selected: true
+    positionAbsolute:
+      x: 451.51673387096776
+      'y': 371.48326612903224
+    dragging: false
+edges: []
+description: null
