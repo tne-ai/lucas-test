@@ -1,0 +1,79 @@
+nodes:
+  - id: 7zjI_el3t2Si2Kz_oZcBh
+    type: python_code
+    position:
+      x: 789.1698628563928
+      'y': 368.01602872445
+    data:
+      id: 7zjI_el3t2Si2Kz_oZcBh
+      title: Python 2
+      module: test2.py
+      outputType: overwrite
+      outputToCanvas: false
+    width: 210
+    height: 348
+    selected: true
+    dragging: false
+    positionAbsolute:
+      x: 789.1698628563928
+      'y': 368.01602872445
+    flowState:
+      backend: git
+      repo: lucas-test
+  - id: VUoU0QHw0SkHYX0cEbQAn
+    type: llm
+    position:
+      x: 1103.6063847255218
+      'y': 329.44946653096946
+    data:
+      id: VUoU0QHw0SkHYX0cEbQAn
+      title: Summarizer
+      input: ''
+      slashgptManifest: summarize.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+    width: 210
+    height: 426
+    selected: false
+    dragging: false
+    positionAbsolute:
+      x: 1103.6063847255218
+      'y': 329.44946653096946
+    flowState:
+      backend: git
+      repo: lucas-test
+  - id: ML4MsNXENIh751lQRliov
+    type: python_code
+    position:
+      x: 426.71429313838917
+      'y': 368.07468918296405
+    data:
+      id: ML4MsNXENIh751lQRliov
+      title: Python 1
+      module: test1.py
+      outputType: overwrite
+      outputToCanvas: false
+    width: 210
+    height: 348
+    selected: false
+    positionAbsolute:
+      x: 426.71429313838917
+      'y': 368.07468918296405
+    dragging: false
+    flowState:
+      backend: git
+      repo: lucas-test
+edges:
+  - id: ouj6PA
+    source: ML4MsNXENIh751lQRliov
+    sourceHandle: r
+    target: 7zjI_el3t2Si2Kz_oZcBh
+    targetHandle: l
+  - id: 80pERJ
+    source: 7zjI_el3t2Si2Kz_oZcBh
+    sourceHandle: r
+    target: VUoU0QHw0SkHYX0cEbQAn
+    targetHandle: l
+description: null
