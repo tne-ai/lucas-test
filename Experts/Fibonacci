@@ -1,0 +1,48 @@
+nodes:
+  - id: dzUmgSK1LWJ6cWwC55pM8
+    type: code_generation
+    position:
+      x: 733.1585011842292
+      'y': 498.16750592114545
+    data:
+      id: dzUmgSK1LWJ6cWwC55pM8
+      title: Generate Code
+      prompt: Return the results as a pd.DataFrame.
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      apiKey: OPENAI_API_KEY
+      engineName: openai-gpt
+      modelName: gpt-4o
+    width: 214
+    height: 466
+    selected: false
+    positionAbsolute:
+      x: 733.1585011842292
+      'y': 498.16750592114545
+    dragging: false
+  - id: AbXSwkWvbGn58H982iMme
+    type: python_code
+    position:
+      x: 1125.9349896644967
+      'y': 556.0560793835766
+    data:
+      id: AbXSwkWvbGn58H982iMme
+      title: New Code
+      module: chat_markdown.py
+      outputType: overwrite
+      outputToCanvas: false
+    width: 212
+    height: 348
+    selected: true
+    positionAbsolute:
+      x: 1125.9349896644967
+      'y': 556.0560793835766
+    dragging: false
+edges:
+  - source: dzUmgSK1LWJ6cWwC55pM8
+    sourceHandle: r
+    target: AbXSwkWvbGn58H982iMme
+    targetHandle: l
+    id: T4tyQT
+description: null
