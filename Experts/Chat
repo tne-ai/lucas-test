@@ -1,0 +1,25 @@
+nodes:
+  - id: cQK12NHNxHHpVRiV47h-M
+    type: llm
+    position:
+      x: 471
+      'y': 372
+    data:
+      id: cQK12NHNxHHpVRiV47h-M
+      title: Chat
+      input: ''
+      slashgptManifest: chat.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+      flowState:
+        backend: git
+        repo: lucas-test
+    width: 212
+    height: 466
+    selected: false
+    dragging: false
+edges: []
+description: null
