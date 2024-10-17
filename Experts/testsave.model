@@ -1,0 +1,25 @@
+nodes:
+  - id: '-QEYX3D5_Y82Wz-spNvXi'
+    type: llm
+    position:
+      x: 509
+      'y': 408.5
+    data:
+      id: '-QEYX3D5_Y82Wz-spNvXi'
+      title: New Model
+      input: ''
+      slashgptManifest: test.model
+      toolJson: ''
+      toolCode: ''
+      outputType: overwrite
+      outputToCanvas: false
+      useUserQuery: false
+    width: 212
+    height: 466
+    selected: true
+    dragging: false
+    positionAbsolute:
+      x: 509
+      'y': 408.5
+edges: []
+description: null
