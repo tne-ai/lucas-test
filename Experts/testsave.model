@@ -16,10 +16,25 @@ nodes:
       useUserQuery: false
     width: 212
     height: 466
-    selected: true
+    selected: false
     dragging: false
     positionAbsolute:
       x: 509
       'y': 408.5
+  - id: dGQtuq9OcQ9E8hRY0xo4o
+    type: proc
+    position:
+      x: 615
+      'y': 577.4250000000001
+    data:
+      id: dGQtuq9OcQ9E8hRY0xo4o
+      title: New Expert
+      proc: ''
+      outputType: overwrite
+      outputToCanvas: false
+    width: 241
+    height: 346
+    selected: true
+    dragging: false
 edges: []
 description: null
