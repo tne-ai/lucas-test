@@ -1,0 +1,24 @@
+nodes:
+  - id: x76xv7pWG85xPo-j8SU65
+    type: rag
+    position:
+      x: 907.5
+      'y': 391.125
+    data:
+      id: x76xv7pWG85xPo-j8SU65
+      title: RAG - Seattle Building Codes
+      ragDbName: crag_agent_db
+      outputType: overwrite
+      outputToCanvas: false
+      showDebug: false
+    width: 241
+    height: 374
+    selected: false
+    positionAbsolute:
+      x: 907.5
+      'y': 391.125
+    dragging: false
+    flowState:
+      backend: git
+      repo: lucas-test
+edges: []
